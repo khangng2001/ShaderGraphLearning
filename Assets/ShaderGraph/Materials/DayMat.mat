@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_CountDownShader
+  m_Name: DayMat
   m_Shader: {fileID: -6465566751694194690, guid: ed6daf3c4879e2e4b8d5b3dfea6cb7a0,
     type: 3}
   m_Parent: {fileID: 0}

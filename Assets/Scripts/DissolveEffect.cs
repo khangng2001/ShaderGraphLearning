@@ -14,18 +14,16 @@ public class DissolveEffect : MonoBehaviour
 
     private void Awake()
     {
-        // Create a material instance to avoid modifying the shared material
+        
         var renderer = GetComponent<MeshRenderer>();
         _material = new Material(renderer.sharedMaterial);
         renderer.material = _material;
-    
-        // Initialize the starting height
+        
         _currentHeight = transform.position.y - playerHeight;
     }
 
     private void Update()
     {
-        // Smoothly update the height
         _currentHeight += Time.deltaTime * dissolveSpeed;
         SetEffect(_currentHeight);
     }
